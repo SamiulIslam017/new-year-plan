@@ -89,9 +89,10 @@ header{
 }
 .plan-design img{
     width: 105px;
+    margin-bottom: 30px;
 } 
 .plan-design h3{
-    font-size: 40px;
+    font-size: 38px;
 }
 .plan-design p{
     font-size: 24px;
@@ -107,6 +108,7 @@ header{
     background-size: cover;
     padding: 80px;
     border-radius: 10px;
+    margin-bottom: 130px;
 }
 .action-content{
     width: 40%;
@@ -116,3 +118,53 @@ header{
     color: #ffffff;
     margin-bottom: 30px;
 }
+
+/* footer style */
+
+footer{
+    background-color: #000000;
+}
+.footer-widget {
+    color: #fff;
+    padding: 130px 0;
+    display: flex;
+    gap: 500px;
+  }
+  .left-widget {
+    width: 50%;
+  }
+  .left-widget h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .left-widget p {
+    font-size: 20px;
+    margin-bottom: 36px;
+  }
+.footer-icon img {
+    margin-right: 20px;
+  }
+  .right-widget {
+    width: 50%;
+  }
+  .right-widget h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .right-widget form input {
+    padding: 21px 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background: transparent;
+    color: #fff;
+    outline: 0;
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+  .right-widget form .submit{
+    width: 50%;
+    background-color: #005FAC;
+    border: 1px solid #005FAC;
+  }
