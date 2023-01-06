@@ -193,7 +193,7 @@ footer{
     gap: 20px;
   }
   .team{
-    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    box-shadow: 0 0 10px rgba(0, 101, 177, .4);
     padding: 8px;
     border-radius: 5px;
   }
