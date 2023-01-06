@@ -1,29 +1,31 @@
 *{
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    overflow: hidden;
     box-sizing:border-box;
 }
 .primary-btn{
     font-size: 24px;
     font-weight: 700;
-    padding: 20px;
+    padding: 25px 45px;
     text-transform: capitalize;
     color: #005FAC;
     background-color: #ffffff;
     border: 0;
     border-radius: 5px;
 }
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* header style */
 header{
     background-image: url("../images/banner/banner3.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
-.container{
-    width: 80%;
-    margin: 0 auto;
-}
+
 .banner{
     padding: 220px 0;
     width: 50%;
@@ -41,4 +43,76 @@ header{
     font-size: 22px;
     letter-spacing: 1px;
     margin: 20px 0 40px;
+}
+
+/* failure style */
+
+.failure{
+    width: 80%;
+    margin: 130px auto;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.right-side-fai h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.right-side-fai p{
+    font-size: 20px;
+    color: #444343;
+    margin-bottom: 30px;
+}
+.right-side-fai .failure-list{
+    margin-bottom: 15px;
+}
+.failure-list span i{
+    color: #16D887;
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+/* my-plan style */
+
+.my-plan{
+    text-align: center;
+    margin-bottom: 130px;
+}
+.plan-heading{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.plan{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+.plan-design img{
+    width: 105px;
+} 
+.plan-design h3{
+    font-size: 40px;
+}
+.plan-design p{
+    font-size: 24px;
+    color: #737272;
+    margin-top: 10px;
+}
+
+/* call-to-action style */
+
+.call-to-action{
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+    border-radius: 10px;
+}
+.action-content{
+    width: 40%;
+}
+.action-content h3{
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 30px;
 }
