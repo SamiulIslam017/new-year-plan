@@ -6,7 +6,7 @@
 .primary-btn{
     font-size: 24px;
     font-weight: 700;
-    padding: 25px 45px;
+    padding: 20px 45px;
     text-transform: capitalize;
     color: #005FAC;
     background-color: #ffffff;
@@ -27,17 +27,17 @@ header{
 }
 
 .banner{
-    padding: 220px 0;
+    padding: 145px 0;
     width: 50%;
     margin-left: auto;
     text-align: right;
     color: #ffffff;
 }
 .banner-title{
-    font-size: 80px;
+    font-size: 62px;
     font-weight: 900;
     text-transform: capitalize;
-    line-height: 100px;
+    line-height: 72px;
 }
 .banner-description{
     font-size: 22px;
@@ -48,8 +48,8 @@ header{
 /* failure style */
 
 .failure{
-    width: 80%;
-    margin: 130px auto;
+    
+    margin: 130px 0;
     display: flex;
     gap: 100px;
     align-items: center;
@@ -88,14 +88,14 @@ header{
     justify-content: space-around;
 }
 .plan-design img{
-    width: 105px;
+    width: 90px;
     margin-bottom: 30px;
 } 
 .plan-design h3{
-    font-size: 38px;
+    font-size: 30px;
 }
 .plan-design p{
-    font-size: 24px;
+    font-size: 20px;
     color: #737272;
     margin-top: 10px;
 }
@@ -106,7 +106,7 @@ header{
     background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url("../images/watch.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 80px;
+    padding: 60px;
     border-radius: 10px;
     margin-bottom: 130px;
 }
@@ -128,7 +128,7 @@ footer{
     color: #fff;
     padding: 130px 0;
     display: flex;
-    gap: 500px;
+    gap: 300px;
   }
   .left-widget {
     width: 50%;
